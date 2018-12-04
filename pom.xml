@@ -455,6 +455,14 @@
                     </reportSet>
                 </reportSets>
             </plugin>
+            
+            <!-- PMD Plug In -->
+            <plugin>
+	        	<groupId>org.apache.maven.plugins</groupId>
+	        	<artifactId>maven-pmd-plugin</artifactId>
+	        	<version>3.11.0</version>
+	    	</plugin>
+            
         </plugins>
     </reporting>
 
